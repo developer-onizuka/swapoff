@@ -5,7 +5,7 @@ NAME      TYPE SIZE USED PRIO
 /swapfile file 1.1G   0B   -2
 
 $ sudo vi /etc/fstab
-$ cat /etc/fstab |grep swap
+# coment out like below:
 #/swapfile                                 none            swap    sw              0       0
 
 
@@ -14,7 +14,7 @@ $ sudo swapoff -a
 
 
 $ sudo swapon --show
-hisayuki@gpu-operator:~/Desktop$ free -h
+$ free -h
               total        used        free      shared  buff/cache   available
 Mem:          7.8Gi       876Mi       6.3Gi        10Mi       593Mi       6.7Gi
 Swap:            0B          0B          0B
