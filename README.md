@@ -5,7 +5,7 @@ NAME      TYPE SIZE USED PRIO
 /swapfile file 1.1G   0B   -2
 
 $ sudo vi /etc/fstab
-# coment out like below:
+# comment out like below:
 #/swapfile                                 none            swap    sw              0       0
 
 
